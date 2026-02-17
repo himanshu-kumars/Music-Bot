@@ -1,0 +1,64 @@
+discord-bot/
+├── package.json
+├── .env
+├── .env.example
+├── config.js
+├── index.js
+├── deploy-commands.js
+├── ecosystem.config.js
+├── src/
+│   ├── bot.js
+│   ├── handlers/
+│   │   ├── commandHandler.js
+│   │   ├── eventHandler.js
+│   │   ├── buttonHandler.js
+│   │   ├── modalHandler.js
+│   │   ├── selectMenuHandler.js
+│   │   └── antiCrash.js
+│   ├── utils/
+│   │   ├── embed.js
+│   │   ├── logger.js
+│   │   ├── pagination.js
+│   │   ├── cooldown.js
+│   │   ├── permissions.js
+│   │   ├── progressBar.js
+│   │   ├── formatTime.js
+│   │   └── constants.js
+│   ├── models/
+│   │   ├── Guild.js
+│   │   ├── User.js
+│   │   ├── Warning.js
+│   │   ├── Economy.js
+│   │   ├── Level.js
+│   │   ├── Ticket.js
+│   │   ├── AFK.js
+│   │   ├── Giveaway.js
+│   │   ├── Suggestion.js
+│   │   ├── ReactionRole.js
+│   │   ├── CustomCommand.js
+│   │   ├── Premium.js
+│   │   └── Reminder.js
+│   ├── events/
+│   │   ├── ready.js
+│   │   ├── interactionCreate.js
+│   │   ├── messageCreate.js
+│   │   ├── guildCreate.js
+│   │   ├── guildDelete.js
+│   │   ├── guildMemberAdd.js
+│   │   ├── guildMemberRemove.js
+│   │   ├── messageDelete.js
+│   │   ├── messageUpdate.js
+│   │   └── voiceStateUpdate.js
+│   └── commands/
+│       ├── info/
+│       ├── moderation/
+│       ├── fun/
+│       ├── music/
+│       ├── economy/
+│       ├── leveling/
+│       ├── tickets/
+│       ├── giveaway/
+│       ├── image/
+│       ├── setup/
+│       ├── utility/
+│       └── owner/
