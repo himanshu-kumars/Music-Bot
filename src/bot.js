@@ -12,6 +12,7 @@ async function initBot() {
     console.log('');
     console.log('╔══════════════════════════════════════════╗');
     console.log('║     🤖 STARTING ULTIMATE DISCORD BOT    ║');
+    console.log('║              By Himanshu                 ║');
     console.log('╚══════════════════════════════════════════╝');
     console.log('');
 
